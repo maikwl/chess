@@ -14,11 +14,14 @@
 # to start try running the program and type me2e4 at the first prompt.
 # This program is built using lots of examples from around the web, so do what you want with it.
 
-#v0.2.2:
-#Adds Capacity to play black (first input should be ma9a9)
+# New features:
+# -Announces moves: FromSquare-ToSquare (announcement of piece not functional yet).
+# -Includes a fancier board visualization
+# -Adds Capacity to play black (first input should be ma9a9)
 
-#To-do: Print all game moves and email at the end of the game.
-#To-do: Speech-to-text!
+# To-do/wishlist:
+# - Print all game moves and email at the end of the game.
+# - Speech-to-text!
 
 # INITIATE CHESSBOARD. IMPORT NEEDED PACKAGES
 from ChessBoard import ChessBoard
