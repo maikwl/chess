@@ -106,12 +106,13 @@ def newgame():
 def bmove(fmove):
     """ assume we get a command of the form me2e4 from board"""    
     fmove=fmove
-    read_board(maxchess)
+    #read_board(maxchess)
     
     # GET A MOVE FROM THE BOARD
     brdmove = bmessage[1:5].lower()
 
-    # --- Code added here make computer play white by sending null message "ma9a9" to Stockfish
+    # --- THIS CODE MAKES THE COMPUTER PLAY WHITE
+    # --- BY SENDING NULL MESSAGE "ma9a9" TO STOCKFISH
     if brdmove =="a9a9":
         fmove = ""
         print ("I play White!")
